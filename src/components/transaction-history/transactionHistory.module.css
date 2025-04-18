@@ -1,0 +1,25 @@
+.historyTable {
+  width: 60%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.headCell {
+  background-color: #2f2f37;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.bodyCell {
+  padding: 12px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
